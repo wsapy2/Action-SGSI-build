@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bigota.d.miui.com/V13.0.15.0.RLDCNXM/miui_PSYCHE_V13.0.15.0.RLDCNXM_fb4835c8a4_11.0.zip'
+        default: 'https://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD2055_A_1.10.20-update-full_1643096410.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_PSYCHE_V13.0.15.0.RLDCNXM_fb4835c8a4_11.0.zip'
+        default: 'PD2055_A_1.10.20-update-full_1643096410.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'miui'
+        default: 'OxygenOS'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'SGSI.zip'
+        default: 'SGSI OxygenOS.zip'
 
 
 
